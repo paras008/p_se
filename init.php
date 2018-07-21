@@ -16,6 +16,7 @@
 		    background-color: #2196f3;
 		}
 	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body style="background: #a1a1a1;">
     <?php if (isset($_SESSION['username'])) { ?>

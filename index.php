@@ -3,7 +3,7 @@
 		.first-block { margin: 50px auto 50px auto; width: 40%; padding: 30px; background: #c1c1c1; box-shadow: 0px 0px 77px -8px black; }
 		.second-block { margin: 50px auto; width: 100%; padding: 30px; background: #c1c1c1; box-shadow: 0px 0px 77px -8px black; }
 		input { border: 1px solid black !important; }
-		.ui-autocomplete .ui-menu-item { background: white; padding: 3px 5px; }
+		.ui-autocomplete .ui-menu-item { background: white; }
 		.ui-autocomplete .ui-menu-item:hover { background: #d3d3d3; color: white }
 		input[type=search]::-webkit-search-cancel-button { -webkit-appearance: searchfield-cancel-button; }
 		.details { background: #e3e3e3; }

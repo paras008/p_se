@@ -1,0 +1,31 @@
+.ui-autocomplete .ui-menu-item:hover,
+.ui-autocomplete .ui-menu-item:focus {
+	background: #2196f3 !important;
+	color: white !important;
+    text-decoration: none;
+    /*border: none !important;*/
+}
+.ui-autocomplete .ui-corner-all {
+    padding: 3px 5px;
+    border-radius: 0px;
+    border-bottom: solid 1px #a3a3a3 !important;
+    /*width: 100%;*/
+    display: block;
+}
+.ui-corner-all:hover,
+.ui-corner-all:focus,
+.ui-corner-all:avtive {
+	/*background-color: transparent !important;*/
+}
+.ui-state-focus,
+.ui-state-focus:hover,
+.ui-state-focus:focus,
+.ui-state-focus:active {
+    border: none !important;
+    background: #2196f3 !important;
+    width: 100%;
+    display: block;
+}
+.ui-widget.ui-widget-content {
+    border: none !important;
+}
