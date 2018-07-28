@@ -26,13 +26,19 @@
 		}
 		$d=mktime($k1[0], $k1[1], $k1[2], $k2[1], $k2[2], $k2[0]);
 		$one = date('Y/m/d H:i:s',$d);
+		//strtotime
 		$two = (float) $value['4. close'];
+		echo "<pre>";
+		print_r($two);
+		echo "<br>";
+		echo "</pre>";
+		die();
 		array_push($arr, [$one, $two]);
 		// if ($count == 50 && ($time != '1min') ) { break; } else { $count += 1; }
 	}
 	// print_r(json_encode($arr));
 	echo "<pre>";
-	print_r(json_encode($arr));
+	print_r(($arr));
 	echo "<br>";
 	echo "</pre>";
 	die();

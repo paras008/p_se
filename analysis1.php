@@ -16,7 +16,7 @@
 			<div class="col-md-12">
 				<div class="first-block">
 					Enter Stock Name or Symbol
-					<input type="search" name="stock" id="stock" class="form-control">
+					<input type="search" name="stock" id="stock" class="form-control" autofocus="autofocus">
 					<!-- <button id="pcjeweller" class="btn">PCJEWELLER</button> -->
 					<?php
 					date_default_timezone_set("UTC");
